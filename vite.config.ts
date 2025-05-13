@@ -5,6 +5,9 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  // HIER DIE BASE-EINSTELLUNG HINZUFÜGEN:
+  base: '/arda-portfolio/', // WICHTIG für GitHub Pages
+
   server: {
     host: "::",
     port: 8080,
