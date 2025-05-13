@@ -1,0 +1,4 @@
+node_modules
+/dist
+.env
+# Du kannst hier weitere Dinge hinzufügen, die nicht auf GitHub sollen
